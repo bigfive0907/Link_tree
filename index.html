@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Search links</title>
+    <link rel="stylesheet" href="/scss/stylesheet.css">
+    
+  </head>
+  <body>
+    <script src="/js/index.js" charset="UTF-8"></script>
+    <header>
+      <h1>Search</h1>
+      <p>キーワードの入力後にサイト名を押すとそのサイトで検索できます</p>
+      <p>(input keyword and push any button)</p>
+      <input type="form" id="text">
+    </header>
+   
+    <ul>
+      <h2>一般検索 (General)</h2>
+      
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Google">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="GoogleNews">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Youtube">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Twitter">
+      
+    </ul>
+    <ul>
+      <h2>プログラミング関連 (How coding)</h2>
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Qiita">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Stack overflow">
+    </ul>
+    <ul>
+      <h2>ショッピング (shopping)</h2>
+      
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Amazon">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="楽天市場">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="Yahooショッピング">
+      
+    </ul>
+    <ul>
+      <h2>翻訳辞書関連 (Dictionary)</h2>
+      <input type="button" class="btn" onclick="buttonClick(this)" value="DeepL">
+      <input type="button" class="btn" onclick="buttonClick(this)" value="weblio">
+      
+    </ul>
+    <footer>
+      <p>このサイトは検索の手間を減らすために作られました</p>
+      <p>This Web site is made to reduce the searching cost</p>
+    </footer>
+  </body>
+</html>
